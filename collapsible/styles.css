@@ -1,0 +1,26 @@
+.input__container {
+  margin-bottom: 3px;
+}
+
+.input__title {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 0 0;
+  transition: border-radius 0.2s ease-out;
+}
+
+.input__summary {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-out;
+  background-color: #f1f1f1;
+}
